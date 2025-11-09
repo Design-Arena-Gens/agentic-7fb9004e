@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: only light;
+}
+
+body {
+  @apply bg-parchment text-espresso antialiased;
+}
+
+.hero-pattern {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.35) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.card {
+  @apply rounded-3xl bg-white/90 p-8 shadow-xl backdrop-blur;
+}
